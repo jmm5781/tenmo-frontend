@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login to TEnmo</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div>
+        <h1 class="main-header">
+            <p>***************************</p>
+            <p>*--------- Login ---------*</p>
+            <p>***************************</p>
+        </h1>
+    </div>
+    <div>
+        <h2 class="menu"> Please enter your login details:</h2>
+        <form id="login-form" class="menu" >         
+                <p><label for="username" id="username-label">
+                        Username:
+                        <input type="text" id="username-field" name="username" required />
+                </label></p>
+                <p><label for="password" id="password-label">
+                        Password:
+                        <input type="password" id="password-field" name="password" required />
+                </label></p>
+            <button type="submit" id="login-button">Login</button>            
+        </form>
+        <ul class="menu">
+            <li><a href="welcome.html">Cancel</a></li>
+            <li>&nbsp;</li>
+            <li>&nbsp;</li>
+            <li class="dev-note"><a href="main-menu.html">Jump to Main Menu (bypass authentication)</a></li>           
+        </ul>
+    </div>
+
+    <script src="script/login.js"></script>
+</body>
+</html>

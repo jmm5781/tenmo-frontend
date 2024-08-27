@@ -1,0 +1,87 @@
+/* html {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16pt;
+    font-weight:300;
+} */
+
+#one {
+    color: red;
+}
+
+.main-header {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15pt;
+    font-weight:600; 
+    color: black;
+}
+/* 
+.default {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15pt;
+    font-weight:300;
+
+} */
+
+/* #login-form {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-areas: 
+        "UsernameLabel UsernameField"
+        "PasswordLabel PasswordField"
+        "LoginButton ." 
+}
+
+#login-form>p>label {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+} */
+
+#username-label {
+    grid-area: UsernameLabel;
+    display: flex;
+    flex-grow: 1;
+    justify-items: center ;
+}
+
+#username-field {
+    grid-area: UsernameField;
+    display: flex;
+    flex-basis: 10vw;//*******/
+    /**** fix ****/
+}
+
+#password-label {
+    grid-area: PasswordLabel;
+    display: flex;
+    justify-items: right;
+}
+
+#password-field {
+    grid-area: PasswordField;
+    display: flex;
+}
+
+#login-button {
+    grid-area: LoginButton;
+    display: flex;
+    flex-basis: 80%;
+    flex-grow: 0.8;
+    max-width: 100%;
+}
+
+
+.menu {
+    font-family: 'Courier New', Courier, monospace;
+    list-style-type: none;
+    font-size: 15pt;
+    font-weight:300;
+}
+
+.dev-note {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style-type: none;
+    font-size: 12pt;
+    font-weight: 200;
+    color:darkmagenta
+}

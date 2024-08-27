@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>New User Registration | TEnmo</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div>
+      <h1 class="main-header">
+        <p>****************************</p>
+        <p>*------ Registration ------*</p>
+        <p>****************************</p>
+      </h1>
+    </div>
+    <div>
+      <h2 class="menu">Please register a new user account:</h2>
+      <div class="menu">
+        <form id="registration-form" class="menu">
+          <p>
+            <label for="username" id="username-label">
+              Username:
+              <input type="text" 
+              id="username-field" 
+              name="username" 
+              required />
+            </label>
+          </p>
+          <p>
+            <label for="password" id="password-label">
+              Password:
+              <input
+                type="password"
+                id="password-field"
+                name="password"
+                required
+              />
+            </label>
+          </p>
+          <button type="submit" id="register-button">Register</button>
+        </form>
+
+        <!-- >> Registration successful. You can now login. -->
+
+        <div><a href="welcome.html">Cancel</a></div>
+        <!-- Go back to home page -->
+      </div>
+    </div>
+    <script src="script/register.js"></script>
+  </body>
+</html>
